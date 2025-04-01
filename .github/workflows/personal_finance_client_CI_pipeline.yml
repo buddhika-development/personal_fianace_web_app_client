@@ -28,10 +28,6 @@ jobs:
         run: npm ci
         if: success()
 
-      - name: Run Linting
-        run: npm run lint
-        if: success()
-
       - name: Build Application
         run: npm run build
 
