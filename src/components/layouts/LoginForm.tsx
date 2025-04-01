@@ -32,7 +32,7 @@ const LoginForm = () => {
 
                     {/* forgor password link */}
                     <div className='flex justify-end mt-1 text-[12px] w-full'>
-                        <Link href={'#'}>Forgot password ?</Link>
+                        <Link href={'http://localhost:3000/ForgotPassword'}>Forgot password ?</Link>
                     </div>
 
                 </div>
